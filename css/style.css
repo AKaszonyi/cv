@@ -1,0 +1,238 @@
+body {
+    margin: 0px auto;
+    text-align: center;
+    background-color: #f3d9b2;
+}
+
+nav {
+    background-color: #f2c982;
+    border-bottom: medium ridge #d04f4f;
+    display: flex;
+    justify-content: right;
+    font-family: 'Courier Prime', serif;
+    margin: 0px;
+}
+
+footer {
+    background-color: #f2c982;
+    border-top: medium ridge #d04f4f;
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier Prime', serif;
+
+}
+
+h3 {
+    font-family: 'Kalam', serif;
+}
+
+h2 {
+    font-family: 'Kalam', serif;
+    margin-top: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #823532;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+hr {
+    border: medium dotted #582422;
+    border-radius: 25%;
+}
+
+dd {
+    text-align: center;
+    padding-right: 40px;
+}
+
+span{
+    position: relative;
+    left: -80px;
+    text-align: left;
+}
+
+input {
+    margin: 10px;
+
+}
+
+.top {
+   font-size: large;
+   margin: 10px;
+   padding-bottom: 0px;
+}
+
+.foot {
+    font-size: medium;
+    margin: 10px;
+}
+
+.intro {
+    background-color: #f9c8aa;
+    margin: 0px 0px 10px 0px;
+    border-bottom: medium ridge #d04f4f;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+}
+
+.label {
+    position: relative;
+    text-align: center;
+   
+}
+
+.words {
+    font-family: 'Courier Prime', serif;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin: 20px 10px;
+    background-color: #f9d9a1;
+
+}
+  
+.card:hover {
+     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+     background-color: #fac79f;
+}
+
+.card2 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background-color: #f9d9a1;
+    width: 500px;
+    text-align: center;
+    margin: auto;
+}
+  
+.card2:hover {
+     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+     background-color: #fac79f;
+}
+
+.incard {
+    padding: 2px 16px;
+}
+
+.three-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 5px;
+
+}
+
+.list2 {
+    font-family: 'Courier Prime', serif;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.one-col {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 30px;
+    margin-bottom: 70px;
+    margin-top: 50px;
+}
+
+.contactinfo {
+    font-family: 'Courier Prime', serif;
+}
+
+#name {
+    font-family: 'Kalam', serif;
+    color: #582422;
+    font-size: 270%;
+    padding: 40px;
+    z-index: 50;
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#about {
+    font-size: large;
+    font-family: 'Kalam', serif;
+    z-index: 3;
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 100px;;
+}
+
+#back {
+    margin-top: 0px;
+    padding-bottom: 5px;
+    padding-top: 0px;
+    z-index: 0;
+}
+
+#hello {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+#hi {
+    color: black;
+    position: absolute;
+    top: 13%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+#me {
+    border-radius: 40%;
+    margin: 10px 0px;
+
+}
+
+#list1 {
+    font-family: 'Courier Prime', serif;
+    display: flex;
+    flex-direction: column;
+    padding-left: 180px;
+}
+
+#contact {
+    font-family: 'Kalam', serif;
+    color: #582422;
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+#sub {
+    font-family: 'Courier Prime', serif;
+    background-color: #fb8c8c;
+}
+
+#sub:hover {
+    background-color: #883633;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
